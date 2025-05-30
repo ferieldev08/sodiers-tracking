@@ -9,6 +9,7 @@ const SoldierSchema = new mongoose_1.default.Schema({
     name: String,
     age: Number,
     grade: String,
+    unit:String,
     bloodGroup: String,
 });
 exports.default = mongoose_1.default.model("Soldier", SoldierSchema);
